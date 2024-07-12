@@ -12,11 +12,11 @@ st.title('Data Mining Prediksi Diabetes')
 col1, col2 = st.columns(2)
 
 with col1:
-    Pregnancies = st.text_input('Input nilai Pregnancies')
+    Pregnancies = st.text_input('Input nilai Kehamilan')
 with col2:
-    Glucose = st.text_input('Input nilai Glucose')
+    Glucose = st.text_input('Input nilai Glukosa')
 with col1:
-    BloodPressure = st.text_input('Input nilai Blood Pressure')
+    BloodPressure = st.text_input('Input nilai Tekanan Darah')
 with col2:
     SkinThickness = st.text_input('Input nilai Skin Thickness')
 with col1:
@@ -26,7 +26,7 @@ with col2:
 with col1:
     DiabetesPedigreeFunction = st.text_input('Input nilai Diabetes Pedigree Function')
 with col2:
-    Age = st.text_input('Input nilai Age')
+    Age = st.text_input('Input nilai Umur')
 
 # Code Untuk Prediksi
 diab_diagnosis = ''
