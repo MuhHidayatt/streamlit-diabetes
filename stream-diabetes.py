@@ -51,9 +51,9 @@ if st.button('Tes Prediksi Diabetes'):
         diab_prediction = model.predict(input_data)
 
         if diab_prediction[0] == 0:
-            diab_diagnosis = 'Pasien Terkena Diabetes'
-        else:
             diab_diagnosis = 'Pasien Tidak Terkena Diabetes'
+        else:
+            diab_diagnosis = 'Pasien Terkena Diabetes'
         
         st.success(diab_diagnosis)
     except ValueError:
