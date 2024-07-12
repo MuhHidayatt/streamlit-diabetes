@@ -7,6 +7,7 @@ model = pickle.load(open('diabetes_model.sav', 'rb'))
 
 # Judul web
 st.title('Data Mining Prediksi Diabetes')
+st.text('Dr. Muhammad Hidayat')
 
 # Membagi Kolom
 col1, col2 = st.columns(2)
